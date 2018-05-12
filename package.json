@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "apollo-client-error-template",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.0.0",
+    "apollo-client": "^2.0.1",
+    "apollo-link": "^1.0.0",
+    "apollo-link-error": "^1.0.9",
+    "apollo-link-http": "^1.5.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.5.0",
+    "react": "^16.0.0",
+    "react-apollo": "2.1.4",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "start": "npm run server | react-scripts start",
+    "build": "npm run server | react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  }
+}
